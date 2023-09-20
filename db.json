@@ -85,64 +85,137 @@
       "amount": -975
     },
     {
-      "id": 13,
-      "date": "2022-07-09",
-      "description": "Office lunch",
-      "category": "Food",
-      "amount": 2000
+      "date": "",
+      "description": "",
+      "category": "",
+      "amount": "",
+      "id": 13
     },
     {
-      "date": "2023-09-15",
-      "description": "Transportation",
-      "category": "Logistis",
+      "date": "2023-07-04",
+      "description": "Transport",
       "amount": "50000",
+      "category": "Weekly",
       "id": 14
     },
     {
-      "date": "2023-09-16",
-      "description": "Ginger drink",
-      "category": "drinks",
-      "amount": "4000",
+      "date": "",
+      "description": "",
+      "amount": "",
+      "category": "Daily",
       "id": 15
     },
     {
-      "date": "2023-05-12",
-      "description": "my purchase",
-      "category": "Food",
-      "amount": "2500",
+      "date": "",
+      "description": "",
+      "amount": "",
+      "category": "",
       "id": 16
     },
     {
+      "date": "",
+      "description": "",
+      "amount": "",
+      "category": "",
       "id": 17
     },
     {
-      "": "300",
+      "date": "2023-06-12",
+      "description": "School",
+      "amount": "23334",
+      "category": "Weekly",
       "id": 18
     },
     {
+      "date": "",
+      "description": "",
+      "amount": "",
+      "category": "Daily",
       "id": 19
     },
     {
+      "date": "",
+      "description": "",
+      "amount": "",
+      "category": "",
       "id": 20
     },
     {
-      "": "20000",
+      "date": "2022-05-06",
+      "description": "Housing",
+      "amount": "2000",
+      "category": "Weekly",
       "id": 21
     },
     {
-      "date": "2023-03-09",
-      "description": "Deep maintenamce",
-      "category": " House keep",
-      "amount": "266700",
-      "": "05",
+      "date": "",
+      "description": "",
+      "amount": "",
+      "category": "Daily",
       "id": 22
     },
     {
       "date": "",
       "description": "",
-      "category": " ",
-      "amount": 0,
+      "amount": "",
+      "category": "Daily",
       "id": 23
+    },
+    {
+      "date": "",
+      "description": "",
+      "amount": "",
+      "category": "Daily",
+      "id": 24
+    },
+    {
+      "date": "",
+      "description": "",
+      "amount": "",
+      "category": "Daily",
+      "id": 25
+    },
+    {
+      "date": "",
+      "description": "",
+      "amount": "",
+      "category": "Daily",
+      "id": 26
+    },
+    {
+      "date": "22-06-09",
+      "description": "House Purchase",
+      "amount": "300000",
+      "category": "Weekly",
+      "id": 27
+    },
+    {
+      "date": "null",
+      "description": "null",
+      "amount": "null",
+      "category": "Weekly",
+      "id": 28
+    },
+    {
+      "date": "",
+      "description": "",
+      "amount": "",
+      "category": "Weekly",
+      "id": 29
+    },
+    {
+      "date": "",
+      "description": "",
+      "amount": "",
+      "category": "Weekly",
+      "id": 30
+    },
+    {
+      "date": "",
+      "description": "",
+      "category": "",
+      "amount": "",
+      "id": 31
     }
   ]
 }

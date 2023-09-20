@@ -18,16 +18,17 @@ const FilterTransaction = ({ setTransactions, category}) => {
               setTransactions(transactions.filter((transaction) => {
               if((transaction.category).toLowerCase().includes(inputText.toLowerCase())
                 )
-              return true
+              return transaction;
             }))  
-            return 
+            return true
         })
 
         }, [inputText, setTransactions])
+        console.log(category)
 
-        if (!category){
-          return <h3>Loading...</h3>
-        }
+        // if (!category){
+        //   return <h3>Loading...</h3>
+        // }
 
     
 

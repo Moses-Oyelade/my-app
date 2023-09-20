@@ -1,14 +1,12 @@
-import React, {useState} from 'react'
+import React, { useState } from 'react'
 
-const NewTransaction = () => {
-  
-    const [errors, setErrors] = useState([]);
+const NewTransaction = ( {hasChange, setHasChange} ) => {
     
   const [formData, setFormData] = useState({
     date: "",
     description: "",
     category:"",
-    amount: 0,
+    amount: '',
   });
   
 
@@ -29,27 +27,23 @@ const NewTransaction = () => {
 
     function handleSubmit (e){
         e.preventDefault();
-
-        if(formData.length > 0){
-            setFormData('');
+        
+        // console.log(formData)
         
           
             fetch ("http://localhost:3000/transactions", {
                 method: "POST",
                 headers: {
                     "Content-Type" : "application/json",
+                    
                 },
                 body: JSON.stringify(formData),
             })
-            .then((r) => console.log (r.json()))
-            .then((data) => setFormData(data.formData))
+            .then((r) => (r.json()))
+            .then((data) => setHasChange((data) => !hasChange ))
             
-            setErrors([]);
-        } else {
-          setErrors(["Input an Item!"])
-        }
-        return
-    
+            // setFormData(data))
+      
     };
         
 
@@ -58,7 +52,7 @@ const NewTransaction = () => {
         <h3>Initiate Transaction</h3>
         <form id ="new-input" onSubmit={handleSubmit}>
             <input
-            type='new Date()'
+            type= "text"
             name="date"
             value={formData.date}
             onChange={handleChange}
@@ -81,7 +75,7 @@ const NewTransaction = () => {
             placeholder="category"/>
 
             <input
-            type="number"
+            type="text"
             name="amount"
             value={formData.amount}
             onChange={handleChange}
@@ -89,14 +83,7 @@ const NewTransaction = () => {
 
             <button id="Submit">Send</button>
         </form>
-        {errors.length > 0
-      ? errors.map((error, index) => (
-        <p key={index} style={{color: "red" }}>
-          {error}
-        </p>
-        ))
-      : null}
-
+      
     </div>
     );
 }
