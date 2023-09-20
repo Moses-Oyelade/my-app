@@ -10,8 +10,8 @@ function TransList({ transactions }) {
 
 
     return (
-    <div>
-        <table className="InfoTable" >
+    <div className="InfoTable">
+        <table  className="table">
             <thead>
                 <tr>
                     <th>S/N</th>

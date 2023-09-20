@@ -36,7 +36,7 @@ const FilterTransaction = ({ setTransactions, category}) => {
 
   return (
     <div>
-        <h3>Filter By Description</h3>
+        <h3>Filter By Category</h3>
         <div id="filter-search">
             <input type="text"
             name="filter"

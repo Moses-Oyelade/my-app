@@ -5,10 +5,44 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: blueviolet;
+  background-color: rgb(123, 120, 126);
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+button{
+  border: none;
+  background-color: #2b0569;
+  margin-top: 10px;
+  padding: 0.5rem;
+  border-radius: 4px;
+  font-size: 1rem;
+  color:aliceblue;
+  box-shadow: 4px 4px 10px rgba(33, 33, 33, 0.5);
+}
+
+
+
+button:hover{
+  background-color: #7fbdf7;
+  color:rgb(13, 9, 59)
+}
+
+.InfoTable{
+  width: 500px;
+  background-color: rgb(245, 239, 231);
+  border-radius: 6px;
+  padding-top: 0.5em;
+  align-items: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 10px;
+  margin-left: 5rem;
 }
