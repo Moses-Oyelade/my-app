@@ -27,7 +27,12 @@ const NewTransaction = ( {hasChange, setHasChange} ) => {
 
     function handleSubmit (e){
         e.preventDefault();
-        
+        setFormData({
+            date: "",
+            description: "",
+            category: "",
+            amount:""
+        });
         // console.log(formData)
         
           
